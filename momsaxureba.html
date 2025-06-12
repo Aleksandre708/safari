@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ჩვენი მომსახურებები</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+      background-color: #f5f7fa;
+      color: #333;
+    }
+
+    header {
+      background-color: #004080;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 10px 0 0;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    header nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      background-image: linear-gradient(to right, #4facfe, #00f2fe);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .service-card {
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .service-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .service-img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 15px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .service-title {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 15px;
+      color: #004080;
+    }
+
+    .btn {
+      display: inline-block;
+      background: linear-gradient(to right, #004080, #0066cc);
+      color: white;
+      padding: 10px 25px;
+      margin-top: 10px;
+      border: none;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: all 0.3s ease;
+    }
+
+    .btn:hover {
+      background: linear-gradient(to right, #003060, #005bb5);
+      transform: scale(1.05);
+    }
+
+    footer {
+      background-color: #004080;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>ჩვენი მომსახურებები</h1>
+    <nav>
+      <ul>
+        <li><a href="safari.html">მთავარი</a></li>
+        <li><a href="momsaxureba.html">დამატებითი მომსახურებები</a></li>
+        <li><a href="contact.html">კონტაქტი</a></li>
+        <li><a href="map.html">ჩვენი ადგილმდებარეობა</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>აღმოაჩინე საუკეთესო სერვისები</h2>
+  </section>
+
+  <section class="services">
+    <div class="service-card">
+      <img class="service-img" src="https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/593007040.jpg?k=2ec7bad08965c2700ce2c3e989b013a848386d49d7830dc8d07d37f3b1097109&o=" alt="მანქანა">
+      <div class="service-title">სამოგზაურო ტურები საქართველოში</div>
+      <a href="manqana.html" class="btn">დეტალები</a>
+    </div>
+
+    <div class="service-card">
+      <img class="service-img" src="https://scontent.ftbs1-2.fna.fbcdn.net/v/t1.15752-9/495267307_1039427921065826_850555497799315451_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=9f807c&_nc_ohc=xKND_5dlP-4Q7kNvwEgl4NR&_nc_oc=Adkngsh94aoGvkQjdGYMzkEhDuMpyae5qN8JHNjVbeRh9R0A5AZg5Q-8CWGRT1D0AEQ&_nc_zt=23&_nc_ht=scontent.ftbs1-2.fna&oh=03_Q7cD2QHdv3OJhMms-L-fR_sUQHaBd5tuVuRquQZCieDJpPjHzQ&oe=685EAB88" alt="ცხენი">
+      <div class="service-title">გაფორმება-დიზაინი</div>
+      <a href="gaformeba.html" class="btn">დეტალები</a>
+    </div>
+
+    <div class="service-card">
+      <img class="service-img" src="https://scontent.ftbs1-1.fna.fbcdn.net/v/t1.15752-9/500464917_724111433317741_5037052275561476173_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=9f807c&_nc_ohc=55nlaKTPKwUQ7kNvwECw3UH&_nc_oc=Adk5MSiYMtgI1Hc_g8-3Fm1b3hb2maxlOLw_uqtnC3MqDe5eMu47nGLt3GddOYkmJx0&_nc_zt=23&_nc_ht=scontent.ftbs1-1.fna&oh=03_Q7cD2QFg_iYpyiyCKcj2hEdGJIH2uZ2iAlXPedszMzLPa79AjA&oe=685EB655" alt="ბავშვები">
+      <div class="service-title">გართობა</div>
+      <a href="gartoba.html" class="btn">დეტალები</a>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 ჩვენი მომსახურებები
+  </footer>
+
+</body>
+</html>

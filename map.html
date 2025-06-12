@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <style>
+    /* ფუძე სტილები */
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* ჰედერი */
+header {
+  background-color: #004080;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* ჰერო სექცია */
+.hero {
+  background-image: linear-gradient(to right, #4facfe, #00f2fe);
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+/* სასტუმრო ბარათები */
+.hotels {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 20px;
+}
+
+.hotel-card {
+  background-color: white;
+  width: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.hotel-card:hover {
+  transform: scale(1.03);
+}
+
+.hotel-card img {
+  width: 100%;
+  height: auto;
+}
+
+.hotel-card h3 {
+  margin: 15px 0 10px;
+}
+
+.hotel-card p {
+  padding: 0 10px 15px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #004080;
+  color: white;
+  padding: 10px 20px;
+  margin-bottom: 15px;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0066cc;
+}
+
+/* ფუთერი */
+footer {
+  background-color: #004080;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+  </style>
+  <header>
+    <h1>სასტუმროების გაქირავება</h1>
+    <nav>
+      <ul>
+        <li><a href="safari.html">მთავარი</a></li>
+        <li><a href="momsaxureba.html">დამატებითი მომსახურებები</a></li>
+        <li><a href="contact.html">კონტაქტი</a></li>
+        <li><a href="map.html">ჩვენი ადგილმდებარეობა</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section style="padding: 40px; background-color: #f0f0f0; text-align: center;">
+  <h2 style="margin-bottom: 20px; color: #004080;">ჩვენი მდებარეობა</h2>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11892.30813179526!2d44.79115849193151!3d41.82663934478911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40446f99cdf02a41%3A0xe545058499ae7e19!2sSafari%20House!5e0!3m2!1ska!2sge!4v1748427098359!5m2!1ska!2sge" 
+width="1500" height="650" style="border:0;" allowfullscreen="" loading="lazy" 
+referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+</section>
+
+</body>
+</html>
